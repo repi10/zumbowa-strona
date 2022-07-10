@@ -1,0 +1,54 @@
+<section appScrollManager>
+<mat-drawer-container>
+  <mat-drawer #drawer [mode]="isShowHideFlag">
+    <mat-icon aria-hidden="false" class="close" (click)="drawer.toggle()">close</mat-icon>
+    <br>
+    <h1>SOCA Studio Tańca</h1>
+    <mat-list role="list">
+      <mat-list-item role="listitem"><a appScrollAnchor="home" mat-button>Strona Główna</a></mat-list-item>
+      <mat-list-item role="listitem"><a appScrollAnchor="about" mat-button>O Nas </a></mat-list-item>
+      <mat-list-item role="listitem"><a appScrollAnchor="reviews" mat-button>Opinie</a></mat-list-item>
+      <mat-list-item role="listitem"><a appScrollAnchor="timetable" mat-button>Grafik Zajęć</a></mat-list-item>
+      <mat-list-item role="listitem"><a appScrollAnchor="timetable" mat-button>Kontakt</a></mat-list-item>
+    </mat-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <mat-toolbar class="nav">
+      <mat-list role="list">
+        <mat-list-item role="listitem"><a appScrollAnchor="home" mat-button>Strona Główna</a></mat-list-item>
+        <mat-list-item role="listitem"><a appScrollAnchor="about" mat-button>O Nas </a></mat-list-item>
+        <mat-list-item role="listitem"><a appScrollAnchor="reviews" mat-button>Opinie</a></mat-list-item>
+        <mat-list-item role="listitem"><a appScrollAnchor="timetable" mat-button>Grafik Zajęć</a></mat-list-item>
+        <mat-list-item role="listitem"><a appScrollAnchor="contact" mat-button>Kontakt</a></mat-list-item>
+      </mat-list>
+    </mat-toolbar>
+    <div class="silder">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" class="desktop-hide" (click)="drawer.toggle()">
+        reorder
+      </mat-icon>
+      <div class="silder-content soca-font" appScrollSection="home">
+        <h1><span class="soca">SOCA</span><br/> Studio Tańca</h1>
+      </div>
+    </div>
+    <app-about appScrollSection="about">
+    </app-about>
+    <app-reviews appScrollSection="reviews">
+    </app-reviews>
+    <div class="contactus">
+      <h2>Subscribe now To get Updates</h2>
+      <form>
+        <mat-form-field appearance="fill">
+          <mat-label>Subscribe</mat-label>
+          <input matInput>
+        </mat-form-field>
+        <button mat-flat-button>Subscribe Now</button>
+      </form>
+    </div>
+    <div class="footer" color="primary">
+      <mat-toolbar color="primary">
+        <span>W3hubs.com 2020</span>
+      </mat-toolbar>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
+</section>
