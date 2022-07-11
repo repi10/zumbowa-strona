@@ -1,9 +1,21 @@
+@media (min-width: 1000px) {
+  .heading, .heading>h3, .soca{
+    font-weight: 400;
+    font-size: 50px !important;
+  }
+  .reviews{
+    p{
+      font-size: 25px !important;
+    }
+  }
+}
+
+
+
 .heading {
   padding-bottom: 5vh;
+  text-align: center;
 
-  h3 {
-    font-size: 40px !important;
-  }
   .soca {
     color:#ec2024
   }
@@ -44,7 +56,7 @@
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 0px;
   }
 
@@ -99,3 +111,4 @@
     }
   }
 }
+

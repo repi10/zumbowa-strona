@@ -1,0 +1,26 @@
+@media (min-width: 1000px){
+  h3{
+    font-size: 32px;
+  }
+}
+.contents{
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  .column>img{
+    max-height: 400px;
+    width: auto;
+    margin: auto;
+  }
+}
+.column{
+  display: contents;
+  margin: auto;
+  width: 100%;
+  img{
+    max-width: 60vw;
+    margin: auto;
+    object-fit: contain;
+  }
+}
