@@ -14,6 +14,10 @@
   </mat-drawer>
   <mat-drawer-content>
     <mat-toolbar class="nav">
+      <div>
+        <img src="assets/img/soca6.png" alt="logo soca">
+      </div>
+      <mat-divider></mat-divider>
       <mat-list role="list">
         <mat-list-item role="listitem"><a appScrollAnchor="home" mat-button>Strona Główna</a></mat-list-item>
         <mat-list-item role="listitem"><a appScrollAnchor="about" mat-button>O Nas </a></mat-list-item>
@@ -26,8 +30,8 @@
       <mat-icon aria-hidden="false" aria-label="Example home icon" class="desktop-hide" (click)="drawer.toggle()">
         reorder
       </mat-icon>
-      <div class="silder-content soca-font" appScrollSection="home">
-        <h1><span class="soca">SOCA</span><br/> Studio Tańca</h1>
+      <div class="silder-content soca-font soca-logo" appScrollSection="home">
+        <img src="assets/img/soca1.png" alt="logo soca">
       </div>
     </div>
     <app-about appScrollSection="about">

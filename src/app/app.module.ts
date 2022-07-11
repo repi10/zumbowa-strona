@@ -8,7 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
-import { MatFormFieldModule, MatInputModule } from '@angular/material';
+import {MatFormFieldModule, MatInputModule, MatTooltipModule} from '@angular/material';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { AboutComponent } from './about/about.component';
@@ -40,6 +40,7 @@ import { ScrollManagerDirective } from './scroll-manager.directive';
     MatFormFieldModule,
     MatInputModule,
     MatSidenavModule,
+    MatTooltipModule,
 
   ],
   providers: [],

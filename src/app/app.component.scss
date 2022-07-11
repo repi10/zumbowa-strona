@@ -2,3 +2,23 @@
 .soca {
   color:#ec2024
 }
+mat-toolbar{
+  div{
+    display:contents;
+    img{
+      height:100% !important;
+      width: auto !important;
+    }
+  }
+}
+
+.soca-logo{
+  height: 100%;
+  width: 100%;
+  img {
+    object-fit: contain;
+    max-height: 300px;
+    margin: 32px auto auto;
+
+  }
+}
