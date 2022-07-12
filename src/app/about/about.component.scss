@@ -3,6 +3,15 @@
     font-size: 32px;
   }
 }
+
+@media (max-width: 1000px) {
+  .column>img{
+    margin-bottom: 0 !important;
+  }
+  .description{
+    margin-top: 0 !important;
+  }
+}
 .contents{
 
   height: 100vh;

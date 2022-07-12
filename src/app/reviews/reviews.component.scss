@@ -33,7 +33,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
 
     .column {
       width: 33%;
@@ -60,10 +59,9 @@
     margin-bottom: 0px;
   }
 
-  .mat-icon {
-    font-size: 66px;
-
-
+  img{
+    max-height: 250px;
+    width: auto;
   }
 }
 

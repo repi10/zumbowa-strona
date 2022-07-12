@@ -1,6 +1,6 @@
 
 .soca {
-  color:#ec2024
+  color:#ec2024;
 }
 mat-toolbar{
   div{
@@ -21,4 +21,11 @@ mat-toolbar{
     margin: 32px auto auto;
 
   }
+}
+
+.drawer-button{
+  top: 0;
+  right:0;
+  position: fixed;
+  background-color: #1a1a1a;
 }
