@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --configuration production",
+    "build": "ng build --configuration production && gzipper --verbose ./dist",
     "test": "ng test",
     "dev": "ng serve",
     "lint": "ng lint",
@@ -26,7 +26,8 @@
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4",
     "express": "^4.18.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "gzipper": "^7.1.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.0.5",
