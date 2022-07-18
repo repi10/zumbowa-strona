@@ -31,9 +31,13 @@
         reorder
       </mat-icon>
       <div id= "videoDiv" class="silder-content soca-font soca-logo" appScrollSection="home">
-        <video id="video1" class="shadow" autoplay muted playsinline #video
+        <video id="video1" class="shadow" playsinline
+               loop
+               autoplay
+               [muted]="true"
+               #video
                (canplay)="video.play()"
-               (loadedmetadata)="video.muted = true">
+               (loadedmetadata)="video.muted = true; video.loop = true">
           <source src="assets/mov/background.mp4" type="video/mp4">
         </video>
         <div id="videoMessage" class="styling">

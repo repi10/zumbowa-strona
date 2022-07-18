@@ -2,9 +2,9 @@
 .soca {
   color: #ec2024;
 }
-.shadow {
 
-  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+.shadow {
+  opacity: 0.65;
 }
 
 mat-toolbar {
@@ -37,8 +37,20 @@ mat-toolbar {
   background-color: #1a1a1a;
 }
 
-#videoDiv {width:100%; margin:auto; display:block; position: relative;} /* This has been changed */
-#video1{width:100%; height:auto} /* This has been changed */
+#videoDiv {
+  width: 100%;
+  margin: auto;
+  display: block;
+  position: relative;
+  box-shadow: 0 0 990px #000 inset !important;
+}
+
+#video1 {
+  width: 100%;
+  height: auto
+}
+
+/* This has been changed */
 
 #videoMessage {
   position: absolute;
