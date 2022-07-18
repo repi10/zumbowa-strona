@@ -30,14 +30,24 @@
       <mat-icon aria-hidden="false" aria-label="Example home icon" class="desktop-hide drawer-button" (click)="drawer.toggle()">
         reorder
       </mat-icon>
-      <div class="silder-content soca-font soca-logo" appScrollSection="home">
-        <img src="assets/img/soca1.png" alt="logo soca">
+      <div id= "videoDiv" class="silder-content soca-font soca-logo" appScrollSection="home">
+        <video id="video1" class="shadow" autoplay muted playsinline #video
+               (canplay)="video.play()"
+               (loadedmetadata)="video.muted = true">
+          <source src="assets/mov/background.mp4" type="video/mp4">
+        </video>
+        <div id="videoMessage" class="styling">
+          <img src="assets/img/soca1.png" alt="logo soca">
+
+        </div>
       </div>
     </div>
     <app-about appScrollSection="about">
     </app-about>
     <app-reviews appScrollSection="reviews">
     </app-reviews>
+    <app-timetable appScrollSection="timetable">
+    </app-timetable>
     <div class="contactus">
       <h2>Subscribe now To get Updates</h2>
       <form>

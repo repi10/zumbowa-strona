@@ -1,9 +1,17 @@
 @media (min-width: 1000px){
   h3{
-    font-size: 32px;
+
+      font-weight: 400;
+      font-size: 50px !important;
+
+  }
+  p{
+    font-size: 25px !important;
   }
 }
-
+.soca {
+  color:#ec2024;
+}
 @media (max-width: 1000px) {
   .column>img{
     margin-bottom: 0 !important;

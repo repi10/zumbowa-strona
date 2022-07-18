@@ -10,3 +10,7 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+const video = document.getElementById('video1') as HTMLVideoElement | null;
+
+video?.play();
