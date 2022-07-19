@@ -41,16 +41,21 @@ mat-toolbar {
   width: 100%;
   margin: auto;
   display: block;
-  position: relative;
   box-shadow: 0 0 990px #000 inset !important;
+  overflow: hidden;
+  display: block;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #video1 {
   width: 100%;
   height: auto
 }
-
-/* This has been changed */
 
 #videoMessage {
   position: absolute;
