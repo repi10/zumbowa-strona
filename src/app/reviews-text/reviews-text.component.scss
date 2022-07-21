@@ -14,7 +14,6 @@
 
 
 blockquote {
-
   position: relative;
   /* background: #ddd; */
 }
@@ -32,7 +31,6 @@ blockquote:after {
   font-size: 4em;
   bottom: 0;
   right: 0;
-  margin-right: -0.6em;
   margin-bottom: -0.8em;
 }
 blockquote p {
@@ -58,17 +56,22 @@ blockquote p {
   .row {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
     .column {
-      width: 33%;
+      -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+      -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+      box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+      width: 25%;
       float: left;
       text-align: center;
       padding-top: 10px;
       padding-bottom: 10px;
 
-
+      h3{
+        color: #ec2024;
+      }
       &:hover {
         background-color: #dfe4ea;
         cursor: pointer;
@@ -83,7 +86,6 @@ blockquote p {
 
   h3 {
     font-size: 30px;
-    margin-bottom: 0px;
   }
 
   img{

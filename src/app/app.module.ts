@@ -16,6 +16,7 @@ import { TimetableComponent } from './timetable/timetable.component';
 import { ScrollAnchorDirective } from './scroll-anchor.directive';
 import { ScrollSectionDirective } from './scroll-section.directive';
 import { ScrollManagerDirective } from './scroll-manager.directive';
+import { ReviewsTextComponent } from './reviews-text/reviews-text.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ScrollManagerDirective } from './scroll-manager.directive';
     TimetableComponent,
     ScrollAnchorDirective,
     ScrollSectionDirective,
-    ScrollManagerDirective
+    ScrollManagerDirective,
+    ReviewsTextComponent
 
   ],
   imports: [
