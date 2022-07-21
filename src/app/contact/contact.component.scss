@@ -1,8 +1,8 @@
 @media (min-width: 1000px){
   h3{
 
-      font-weight: 400;
-      font-size: 50px !important;
+    font-weight: 400;
+    font-size: 50px !important;
 
   }
   p{
@@ -13,9 +13,7 @@
   color:#ec2024;
 }
 @media (max-width: 1000px) {
-  .column>img{
-    margin-bottom: 0 !important;
-  }
+
   .description{
     margin-top: 0 !important;
   }
@@ -28,10 +26,17 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  .column>img{
-    max-height: 400px;
+  div>img{
+    max-height: 200px;
     width: auto;
     margin: auto;
+  }
+  div>p{
+    line-height: 1.6;
+    text-align: left !important;
+  }
+  .-center{
+    align-self: center;
   }
 }
 .column{
@@ -44,4 +49,22 @@
     object-fit: contain;
   }
 
+}
+.contents{
+  color: white;
+  background-color: #1a1a1a;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row{
+  justify-content: space-evenly;
+}
+mat-icon{
+  color: white
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: underline;
+  color: white;
 }

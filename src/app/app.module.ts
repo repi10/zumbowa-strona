@@ -17,6 +17,7 @@ import { ScrollAnchorDirective } from './scroll-anchor.directive';
 import { ScrollSectionDirective } from './scroll-section.directive';
 import { ScrollManagerDirective } from './scroll-manager.directive';
 import { ReviewsTextComponent } from './reviews-text/reviews-text.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ReviewsTextComponent } from './reviews-text/reviews-text.component';
     ScrollAnchorDirective,
     ScrollSectionDirective,
     ScrollManagerDirective,
-    ReviewsTextComponent
+    ReviewsTextComponent,
+    ContactComponent
 
   ],
   imports: [
