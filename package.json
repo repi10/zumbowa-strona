@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --configuration production",
+    "build": "ng build --configuration production && gzipper c ./dist --include js,css,html --output-file-format [filename].[ext] ./dist-compressed/",
     "test": "ng test",
     "dev": "ng serve --host=0.0.0.0",
     "lint": "ng lint",
