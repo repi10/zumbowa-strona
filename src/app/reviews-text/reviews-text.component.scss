@@ -1,5 +1,5 @@
 @media (min-width: 1000px) {
-  .heading, .heading>h3, .soca{
+  .heading, .heading>span, .soca{
     font-weight: 400;
     font-size: 50px !important;
   }
@@ -97,7 +97,7 @@ blockquote p {
 
 @media(max-width: 768px) {
   .heading {
-    h3 {
+    span {
       font-size: 30px;
     }
   }
