@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss','../../styles.scss']
 })
 export class AboutComponent implements OnInit {
+  founder: string = "Agnieszka Kozioł";
 
   constructor() { }
 

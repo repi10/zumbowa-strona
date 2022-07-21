@@ -12,6 +12,7 @@ export class AppComponent{
   showHide() {
 
   }
+
   isShowHideFlag = "over"
 
 }
