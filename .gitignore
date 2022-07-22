@@ -2,6 +2,7 @@
 /node_modules
 /.angular
 /.vscode
+/dist-compressed
 # compiled output
 /dist
 /tmp
