@@ -12,7 +12,7 @@ export class AppComponent{
   showHide() {
 
   }
-
+  date = new Date().getFullYear()
   isShowHideFlag = "over"
 
 }
