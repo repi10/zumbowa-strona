@@ -6,9 +6,11 @@
     <h1>SOCA Studio Tańca</h1>
     <mat-list role="list">
       <mat-list-item role="listitem" ><a href="#" appScrollAnchor="home" (click)="drawer.toggle()" mat-button>Strona Główna</a></mat-list-item>
-      <mat-list-item role="listitem"><a href="#about" appScrollAnchor="about" (click)="drawer.toggle()" mat-button>O Nas </a></mat-list-item>
+      <mat-list-item role="listitem"><a href="#about" appScrollAnchor="about" (click)="drawer.toggle()" mat-button>O Nas </a></mat-list-item>>
+      <mat-list-item role="listitem"><a href="#offer" appScrollAnchor="offer" (click)="drawer.toggle()" mat-button>Oferta</a></mat-list-item>
       <mat-list-item role="listitem"><a href="#reviews" appScrollAnchor="reviews" (click)="drawer.toggle()" mat-button>Opinie</a></mat-list-item>
-      <mat-list-item role="listitem"><a href="#timetable" appScrollAnchor="timetable" (click)="drawer.toggle()" mat-button>Grafik Zajęć</a></mat-list-item>
+      <mat-list-item role="listitem"><a href="#timetable" appScrollAnchor="timetable" (click)="drawer.toggle()" mat-button>Grafik Zajęć</a></mat-list-item>>
+      <mat-list-item role="listitem"><a href="#pricing" appScrollAnchor="pricing" (click)="drawer.toggle()" mat-button>Cennik</a></mat-list-item>
       <mat-list-item role="listitem"><a href="#contact" appScrollAnchor="contact" (click)="drawer.toggle()" mat-button>Kontakt</a></mat-list-item>
     </mat-list>
   </mat-drawer>
@@ -21,8 +23,10 @@
       <mat-list role="list">
         <mat-list-item role="listitem"><a href="#" appScrollAnchor="home" mat-button>Strona Główna</a></mat-list-item>
         <mat-list-item role="listitem"><a href="#about" appScrollAnchor="about" mat-button>O Nas </a></mat-list-item>
+        <mat-list-item role="listitem"><a href="#offer" appScrollAnchor="offer" mat-button>Oferta</a></mat-list-item>
         <mat-list-item role="listitem"><a href="#reviews" appScrollAnchor="reviews" mat-button>Opinie</a></mat-list-item>
         <mat-list-item role="listitem"><a href="#timetable" appScrollAnchor="timetable" mat-button>Grafik Zajęć</a></mat-list-item>
+        <mat-list-item role="listitem"><a href="#pricing" appScrollAnchor="pricing" mat-button>Cennik</a></mat-list-item>
         <mat-list-item role="listitem"><a href="#contact" appScrollAnchor="contact" mat-button>Kontakt</a></mat-list-item>
       </mat-list>
     </mat-toolbar>
@@ -48,10 +52,14 @@
     </div>
     <app-about appScrollSection="about">
     </app-about>
+    <app-offer appScrollSection="offer">
+    </app-offer>
     <app-reviews-text appScrollSection="reviews">
     </app-reviews-text>
     <app-timetable appScrollSection="timetable">
     </app-timetable>
+    <app-pricing appScrollSection="pricing">
+    </app-pricing>
     <app-contact appScrollSection="contact"></app-contact>
     <div class="footer" color="primary">
       <mat-toolbar color="primary">

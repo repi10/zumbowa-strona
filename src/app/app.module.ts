@@ -18,6 +18,8 @@ import { ScrollSectionDirective } from './scroll-section.directive';
 import { ScrollManagerDirective } from './scroll-manager.directive';
 import { ReviewsTextComponent } from './reviews-text/reviews-text.component';
 import { ContactComponent } from './contact/contact.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { OfferComponent } from './offer/offer.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { ContactComponent } from './contact/contact.component';
     ScrollSectionDirective,
     ScrollManagerDirective,
     ReviewsTextComponent,
-    ContactComponent
+    ContactComponent,
+    PricingComponent,
+    OfferComponent
 
   ],
   imports: [

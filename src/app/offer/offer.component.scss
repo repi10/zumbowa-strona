@@ -1,12 +1,15 @@
 @media (min-width: 1000px){
   span{
 
-      font-weight: 400;
-      font-size: 50px !important;
+    font-weight: 400;
+    font-size: 50px !important;
 
   }
   p{
     font-size: 25px !important;
+    span {
+      font-size: 30px !important;
+    }
   }
 }
 .soca {
@@ -14,22 +17,29 @@
 }
 @media (max-width: 1000px) {
   .column>img{
-    margin-bottom: 10px !important;
-    height: 40%;
-    width:auto;
+    margin-bottom: 0 !important;
   }
   .description{
     margin-top: 0 !important;
   }
-  .column>span{
+  .row>span{
     font-size: 30px !important;
   }
+}
+.description>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 70%;
+  max-width: 80%;
 }
 .contents{
 
   height: 100vh;
   display: flex;
   justify-content: center;
+
   .column>img{
     max-height: 400px;
     width: auto;
